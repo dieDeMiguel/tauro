@@ -11,10 +11,12 @@ img {
 }
 
 .image-full {
-    max-height: 280px;
+    max-height: 450px;
     width: 100%;
     object-fit: cover;
+    object-position: top;
     margin-bottom: 2em;
+    box-shadow: 0 0 25px rgba(0,0,0, 0.2);
  }
 
  /* =================
