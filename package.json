@@ -1,0 +1,19 @@
+{
+  "name": "tauroenmadera",
+  "version": "1.0.0",
+  "description": "Web Site for an architecture studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dieDeMiguel/tauro.git"
+  },
+  "author": "dieDeMiguel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dieDeMiguel/tauro/issues"
+  },
+  "homepage": "https://github.com/dieDeMiguel/tauro#readme"
+}
