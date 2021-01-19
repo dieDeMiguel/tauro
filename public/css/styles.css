@@ -11,7 +11,7 @@ img {
 }
 
 .image-full {
-    max-height: 450px;
+    max-height: 800px;
     width: 100%;
     object-fit: cover;
     object-position: top;
@@ -70,7 +70,7 @@ strong {
 
 .article-read-more,
 .article-info {
-    font-size: .875rem;
+    font-size: 1.0rem;
 }
 
 .article-read-more {
@@ -99,6 +99,11 @@ strong {
     font-weight: 700;
 }
 
+p {
+    line-height: 1.5rem;
+    max-width: 900px;
+}
+
 
  /* =================
     Layout
@@ -106,7 +111,7 @@ strong {
 
 .container {
     width: 90%;
-    max-width:  900px;
+    max-width:  1200px;
     margin: 0 auto;
 }
 
@@ -341,7 +346,8 @@ nav {
 }
 
 .main-about-me {
-    margin-bottom: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 100%;
 }
 
@@ -350,6 +356,19 @@ nav {
     margin: auto;
 }
 
+.image-ubicacion {
+    margin-top: 5%;
+}
+
+.link-ubicacion {
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+
+.ultimo-parrafo {
+    margin-bottom: 6%;
+}
+ 
 
 .grid-image {
     margin-top: 0;
@@ -394,6 +413,14 @@ nav {
 .element-six {
     grid-area: six;
     grid-column: 4;
+}
+
+footer p {
+    max-width: 2900px;
+}
+
+.link-widget {
+    margin-bottom: 4%;
 }
 
 @media(min-width: 900px) {
