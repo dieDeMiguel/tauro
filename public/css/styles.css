@@ -133,6 +133,10 @@ header {
     margin-bottom: 3em;
 }
 
+.header-contact {
+    margin-bottom: 0;
+}
+
 .header-logo {
     max-width: 150px;
 }
@@ -318,6 +322,90 @@ nav {
     order: -1;
     margin-bottom: 1em;
 }
+
+/* Contact */
+
+.list-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.list-items li {
+    
+    font-size: 1em;
+}
+
+.container-about-me {
+    justify-content: center;
+}
+
+.main-about-me {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.align-grid {
+    margin-bottom: 5%;
+    margin: auto;
+}
+
+
+.grid-image {
+    margin-top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.2em repeat(3, minmax(100px, 500px)) 0.2em;    
+    grid-template-areas: 
+        "one two three"
+        "four five six";
+}
+
+.grid-image img {
+    display: block;
+    max-width: 100%;
+}
+
+.element-one {
+    grid-area: one;
+    grid-column: 2;
+}
+
+.element-two {
+    grid-area: two;
+    grid-column: 3;
+}
+
+.element-three {
+    grid-area: three;
+    grid-column: 4;
+}
+
+.element-four {
+    grid-area: four;
+    grid-column: 2;
+}
+
+.element-five {
+    grid-area: five;
+    grid-column: 3;
+}
+
+.element-six {
+    grid-area: six;
+    grid-column: 4;
+}
+
+@media(min-width: 900px) {
+    .list-items li {
+        font-size: 1.2em;
+    }
+
+    .align-grid {
+        max-width: 80%;
+    }
+}
+
 
 
 
